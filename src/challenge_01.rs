@@ -14,6 +14,6 @@
 /// llaveS casa CASA casa llaves -> llaves2casa3
 /// taza ta za taza -> taza2ta1za1
 /// casas casa casasas -> casas1casa1casas1
-fn solve() {
-    print!("challenge_01");
+pub fn solve() {
+    println!("challenge_01");
 }

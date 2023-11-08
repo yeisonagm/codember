@@ -22,9 +22,15 @@ fn menu(challenges: u8) -> u8 {
     challenge
 }
 
+fn run_challenge(challenge: u8) {
+    match challenge {
+        1 => challenge_01::solve(),
+        _ => println!("I do not add the challenge to the execution."),
+    }
+    println!();
+}
+
 fn main() {
-    let challenges = 5;
-    let input = menu(challenges);
-    
-    println!("challenge {}", input);
+    let challenges = 1;
+    run_challenge(menu(challenges));
 }
