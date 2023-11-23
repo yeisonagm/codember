@@ -2,6 +2,7 @@ use std::io::{self, Write};
 
 mod challenge_01;
 mod challenge_02;
+mod challenge_03;
 
 fn menu(challenges: u8) -> u8 {
     println!("Restos de codember 2023👌");
@@ -27,12 +28,13 @@ fn run_challenge(challenge: u8) {
     match challenge {
         1 => challenge_01::solve(),
         2 => challenge_02::solve(),
+        3 => challenge_03::solve(),
         _ => println!("I do not add the challenge to the execution."),
     }
     println!();
 }
 
 fn main() {
-    let challenges = 2;
+    let challenges = 3;
     run_challenge(menu(challenges));
 }
