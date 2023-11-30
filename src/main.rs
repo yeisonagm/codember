@@ -3,6 +3,7 @@ use std::io::{self, Write};
 mod challenge_01;
 mod challenge_02;
 mod challenge_03;
+mod challenge_04;
 
 fn menu(challenges: u8) -> u8 {
     println!("Restos de codember 2023👌");
@@ -29,12 +30,13 @@ fn run_challenge(challenge: u8) {
         1 => challenge_01::solve(),
         2 => challenge_02::solve(),
         3 => challenge_03::solve(),
+        4 => challenge_04::solve(),
         _ => println!("I do not add the challenge to the execution."),
     }
     println!();
 }
 
 fn main() {
-    let challenges = 3;
+    let challenges = 4;
     run_challenge(menu(challenges));
 }
