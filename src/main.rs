@@ -4,6 +4,7 @@ mod challenge_01;
 mod challenge_02;
 mod challenge_03;
 mod challenge_04;
+mod challenge_05;
 
 fn menu(challenges: u8) -> u8 {
     println!("Restos de codember 2023👌");
@@ -31,12 +32,13 @@ fn run_challenge(challenge: u8) {
         2 => challenge_02::solve(),
         3 => challenge_03::solve(),
         4 => challenge_04::solve(),
+        5 => challenge_05::solve(),
         _ => println!("I do not add the challenge to the execution."),
     }
     println!();
 }
 
 fn main() {
-    let challenges = 4;
+    let challenges = 5;
     run_challenge(menu(challenges));
 }

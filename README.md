@@ -15,6 +15,7 @@ Solución de los retos y secretos del juego [codember](https://codember.dev/) cr
 - [CHALLENGE 02](https://github.com/yeisonagm/codember/blob/main/src/challenge_02.rs)
 - [CHALLENGE 03](https://github.com/yeisonagm/codember/blob/main/src/challenge_03.rs)
 - [CHALLENGE 04](https://github.com/yeisonagm/codember/blob/main/src/challenge_04.rs)
+- [CHALLENGE 05](https://github.com/yeisonagm/codember/blob/main/src/challenge_05.rs)
 
 
 ## Secretos
